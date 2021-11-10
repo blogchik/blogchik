@@ -11,5 +11,5 @@
 <a href='https://github.com/blogchik'><img src='https://img.shields.io/badge/Level-Junior-blueviolet?style=social' alt='Level'></a>
 <a href='https://github.com/blogchik'><img src='https://img.shields.io/github/followers/blogchik?style=social' alt='Followers'></a>
 <a href='https://github.com/blogchik'><img src='https://img.shields.io/github/stars/blogchik?style=social' alt='Stars'></a>
-<a href='https://github.com/blogchik'><img src='https://img.shields.io/youtube/channel/subscribers/UCgMSMEZLPuB3lSTpEKe8UvQ?style=social' alt='YouTube Followers'></a>
-<a href='https://github.com/blogchik'><img src='https://img.shields.io/youtube/channel/views/UCgMSMEZLPuB3lSTpEKe8UvQ?style=social' alt='YouTube Views'></a>
+<a href='https://youtube.com/c/blogchik'><img src='https://img.shields.io/youtube/channel/subscribers/UCgMSMEZLPuB3lSTpEKe8UvQ?style=social' alt='YouTube Followers'></a>
+<a href='https://youtu.be/Gk6JEZr6TRY'><img src='https://img.shields.io/youtube/channel/views/UCgMSMEZLPuB3lSTpEKe8UvQ?style=social' alt='YouTube Views'></a>
