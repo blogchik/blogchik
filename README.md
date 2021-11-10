@@ -1,15 +1,15 @@
 ## 👨‍💻 Jabborov Abduroziq
 #### Web-Developer || Graphic Designer
 
-[`WebSite`](https://blogchik.uz)
-[`Instagram`](https://instagram.com/blogchik.me)
-[`Telegram`](https://t.me/BlogChik)
-[`GitHub`](https://github.com/blogchik)
+<a href='https://blogchik.uz'><img src='https://img.shields.io/badge/WebSite-blogchik.uz-blueviolet?style=flat-square' alt='Level'></a>
+<a href='https://instagram.com/blogchik.me'><img src='https://img.shields.io/badge/Instagram-blogchik.me-orange?style=flat-square' alt='Level'></a>
+<a href='https://t.me/BlogChik'><img src='https://img.shields.io/badge/Telegram-blogchik-blue?style=flat-square' alt='Level'></a>
+<a href='https://github.com/blogchik'><img src='https://img.shields.io/badge/GitHub-blogchik-lightgrey?style=flat-square' alt='Level'></a>
 
 <hr>
 
-<a href=''><img src='https://img.shields.io/badge/Level-Junior-blueviolet?style=social' alt='Level'></a>
-<img src='https://img.shields.io/github/followers/blogchik?style=social' alt='Followers'>
-<img src='https://img.shields.io/github/stars/blogchik?style=social' alt='Stars'>
-<img src='https://img.shields.io/youtube/channel/subscribers/UCgMSMEZLPuB3lSTpEKe8UvQ?style=social' alt='YouTube Followers'>
-<img src='https://img.shields.io/youtube/channel/views/UCgMSMEZLPuB3lSTpEKe8UvQ?style=social' alt='YouTube Views'>
+<a href='https://github.com/blogchik'><img src='https://img.shields.io/badge/Level-Junior-blueviolet?style=social' alt='Level'></a>
+<a href='https://github.com/blogchik'><img src='https://img.shields.io/github/followers/blogchik?style=social' alt='Followers'></a>
+<a href='https://github.com/blogchik'><img src='https://img.shields.io/github/stars/blogchik?style=social' alt='Stars'></a>
+<a href='https://github.com/blogchik'><img src='https://img.shields.io/youtube/channel/subscribers/UCgMSMEZLPuB3lSTpEKe8UvQ?style=social' alt='YouTube Followers'></a>
+<a href='https://github.com/blogchik'><img src='https://img.shields.io/youtube/channel/views/UCgMSMEZLPuB3lSTpEKe8UvQ?style=social' alt='YouTube Views'></a>
