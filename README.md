@@ -1,5 +1,5 @@
-## &#9734; Jabborov Abduroziq
-#### Web-Developer || Graphic Designer
+## &#9734; Jabborov Abduroziq &#9734;
+#### &#10003; Web-Developer || &#10003; Graphic Designer
 
 <a href='https://blogchik.uz'><img src='https://img.shields.io/badge/WebSite-blogchik.uz-blueviolet?style=flat-square' alt='Level'></a>
 <a href='https://instagram.com/blogchik.me'><img src='https://img.shields.io/badge/Instagram-blogchik.me-orange?style=flat-square' alt='Level'></a>
