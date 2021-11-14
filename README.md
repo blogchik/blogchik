@@ -17,3 +17,4 @@
 <hr>
 
 <a href='https://www.donationalerts.com/r/blogchik'><img src='https://img.shields.io/badge/Support Developer-Donation-orange?style=flat-square' alt='Donat'></a>
+<a href='https://discord.gg/rTbrphPQ99'><img src='https://img.shields.io/badge/Discord-Join%20Group-blue?style=flat-square' alt='Discord'></a>
