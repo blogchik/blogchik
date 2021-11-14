@@ -1,4 +1,4 @@
-## 👨‍💻 Jabborov Abduroziq
+## &#9734; Jabborov Abduroziq
 #### Web-Developer || Graphic Designer
 
 <a href='https://blogchik.uz'><img src='https://img.shields.io/badge/WebSite-blogchik.uz-blueviolet?style=flat-square' alt='Level'></a>
