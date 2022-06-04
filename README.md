@@ -1,4 +1,4 @@
-## &#9734; Jabborov Abduroziq &#9734; [![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Imon+bo'lsa,+;Imkon+topiladi!&color=8A2BE2&duration=3000)](https://git.io/typing-svg)
+## &#9734; Jabborov Abduroziq &#9734; [![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Iymon+bo'lsa,+;Imkon+topiladi!&color=8A2BE2&duration=3000)](https://git.io/typing-svg)
 #### [![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=&#10003;+Web-Developer&color=8A2BE2&duration=6000)](https://git.io/typing-svg)
 
 <a href='https://blogchik.uz'><img src='https://img.shields.io/badge/WebSite-blogchik.uz-blueviolet?style=flat-square' alt='Level'></a>
