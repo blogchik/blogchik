@@ -12,4 +12,4 @@
 
 <hr>
 
-<a href='https://www.donationalerts.com/r/blogchik'><img src='https://img.shields.io/badge/Support-Donation-orange?style=flat-square' alt='Donat'></a>
+<a href='https://www.donationalerts.com/r/blogchik'><img src='https://blogchik.uz/data/images/support-me-badge.png' width=200px alt='Donat'></a>
