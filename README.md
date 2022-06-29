@@ -8,7 +8,7 @@
 
 <hr>
 
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=blogchik&show_icons=true&theme=tokyonight&hide_border=true&locale=en&hide=prs)](https://github.com/blogchik) [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=blogchik&layout=compact&theme=tokyonight&hide_border=true&locale=en&hide=html,css,scss)](https://github.com/blogchik)
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=blogchik&show_icons=true&theme=tokyonight&hide_border=true&locale=en&hide=prs)](https://github.com/blogchik) 
 
 <hr>
 
