@@ -12,4 +12,10 @@
 
 <!-- [![Ashutosh's github activity graph](https://github-readme-activity-graph.cyclic.app/graph?username=blogchik&theme=tokyo-night)](https://github.com/ashutosh00710/github-readme-activity-graph) -->
 
-![GitHub Stats](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=blogchik&theme=tokyonight)
+![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=blogchik&theme=tokyonight)
+
+![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=blogchik&theme=tokyonight)
+![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=blogchik&theme=tokyonight)
+
+![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=blogchik&theme=tokyonight)
+![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=blogchik&theme=tokyonight&utcOffset=8)
