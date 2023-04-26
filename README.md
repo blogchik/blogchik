@@ -1,4 +1,4 @@
-# &#9734; Jabborov Abduroziq &#9734; [![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Iymon+bo'lsa,+;Imkon+topiladi!&color=8A2BE2&duration=3000)](https://git.io/typing-svg)
+# 👋 Hi, my name is Abduroziq [![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Iymon+bo'lsa,+;Imkon+topiladi!&color=8A2BE2&duration=3000)](https://git.io/typing-svg)
 
 <a href='https://blogchik.uz'><img src='https://img.shields.io/badge/WebSite-blogchik.uz-blueviolet?style=flat-square' alt='Level'></a>
 <a href='https://instagram.com/blogchik.me'><img src='https://img.shields.io/badge/Instagram-blogchik.me-blueviolet?style=flat-square' alt='Level'></a>
