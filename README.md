@@ -3,7 +3,15 @@ Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-912
 
 ### UX/UI Designer | Web-Developer
 
-I have been working with so many firms these days. And as of now, I can't work offline because of my studies. For this reason, I started working in a freelance way! Thanks to my many years of skill and work, I developed a good skill. I do not want to offend any client and fully work with his thoughts! I can give him the result he wants when he wants it, valuing the client's time and opinions! To tell about myself, I was born in a small village and from an early age I was very interested in the IT industry. At that time, I started my career by creating several Windows aplications. As early as school times, I won top positions by participating in several competitions! Despite the fact that I graduated from school, we still have communication with my teachers, and they are still happy with me. I don't want to get stuck in one area and I've studied so many areas!
+I have been working with so many firms these days. And as of now, I can't work offline because of my studies. For this reason, I started working in a freelance way!
+
+Thanks to my many years of skill and work, I developed a good skill. I do not want to offend any client and fully work with his thoughts! I can give him the result he wants when he wants it, valuing the client's time and opinions!
+
+To tell about myself, I was born in a small village and from an early age I was very interested in the IT industry. At that time, I started my career by creating several Windows aplications. As early as school times, I won top positions by participating in several competitions!
+
+Despite the fact that I graduated from school, we still have communication with my teachers, and they are still happy with me.
+
+I don't want to get stuck in one area and I've studied so many areas!
 
 * 🌍  I'm based in Uzbekistan/Tashkent
 * 🖥️  See my portfolio at [www.blogchik.uz](http://blogchik.uz)
