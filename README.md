@@ -9,3 +9,5 @@
 <hr>
 
 [![GitHub Stats](https://github-readme-stats.vercel.app/api?username=blogchik&show_icons=true&theme=tokyonight&hide_border=true&locale=en&hide=prs)](https://github.com/blogchik) 
+
+[![Ashutosh's github activity graph](https://github-readme-activity-graph.cyclic.app/graph?username=blogchik&theme=tokyo-night)](https://github.com/ashutosh00710/github-readme-activity-graph)
