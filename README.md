@@ -72,7 +72,7 @@ src="https://img.shields.io/github/followers/blogchik?logo=github&style=for-the-
 ![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=blogchik&theme=tokyonight)
 
 ![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=blogchik&theme=tokyonight)
-![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=blogchik&theme=tokyonight&utcOffset=8)
+![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=blogchik&theme=tokyonight&utcOffset=5)
 
 <hr>
 
