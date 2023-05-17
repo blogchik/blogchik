@@ -25,7 +25,7 @@ src="https://img.shields.io/github/followers/blogchik?logo=github&style=for-the-
 <hr>
 
 ### 🐦 Latest Tweet
-[![](https://gtce.itsvg.in/api?username=JabborovsTwit)](https://github.com/VishwaGauravIn/github-twitter-card-embed)
+[![](https://gtce.itsvg.in/api?username=JabborovsTwit)](https://twitter.com/JabborovsTwit)
 
 ### Skills
 
