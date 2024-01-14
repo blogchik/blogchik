@@ -25,9 +25,6 @@ src="https://img.shields.io/github/followers/blogchik?logo=github&style=for-the-
 
 <hr>
 
-### 🐦 Latest Tweet
-[![](https://gtce.itsvg.in/api?username=JabborovsTwit)](https://twitter.com/JabborovsTwit)
-
 ### Skills
 
 <p align="left">
@@ -77,6 +74,9 @@ src="https://img.shields.io/github/followers/blogchik?logo=github&style=for-the-
 
 ![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=blogchik&theme=tokyonight)
 ![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=blogchik&theme=tokyonight&utcOffset=5)
+
+### 🏆 GitHub Trophies
+![](https://github-profile-trophy.vercel.app/?username=blogchik&theme=tokyonight&no-frame=true&no-bg=false&margin-w=4&margin-h=4&column=6)
 
 <hr>
 
