@@ -1,5 +1,6 @@
-Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)My name is Abduroziq [![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Iymon+bo'lsa,+;Imkon+topiladi!&color=8A2BE2&duration=3000)](https://git.io/typing-svg)
-=================================================================================================================================
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+# Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)My name is Abduroziq [![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Iymon+bo'lsa,+;Imkon+topiladi!&color=8A2BE2&duration=3000)](https://git.io/typing-svg)
 
 ### UX/UI Designer | Web-Developer
 
@@ -82,3 +83,8 @@ src="https://img.shields.io/github/followers/blogchik?logo=github&style=for-the-
 ### Support Me
 
 <a href="https://www.buymeacoffee.com/blogchik"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" width="200" /></a>
+
+<div align="center">
+  <img  src="https://github.com/1999AZZAR/1999AZZAR/blob/main/resources/img/grid-snake.svg"
+       alt="snake" /></a>
+</div>
