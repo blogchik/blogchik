@@ -80,6 +80,8 @@ src="https://img.shields.io/github/followers/blogchik?logo=github&style=for-the-
 
 <hr>
 
+[![Hits](https://hits.sh/github.com/blogchik.svg?view=today-total&label=Blogchik's%20Views%20(today%20%2F%20total)&color=7e33fc)](https://hits.sh/github.com/blogchik/)
+
 ### Support Me
 
 <a href="https://www.buymeacoffee.com/blogchik"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" width="200" /></a>
