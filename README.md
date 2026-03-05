@@ -15,7 +15,7 @@ Despite the fact that I graduated from school, we still have communication with 
 I don't want to get stuck in one area and I've studied so many areas!
 
 * 🌍  I'm based in Uzbekistan/Tashkent
-* 🖥️  See my portfolio at [www.blogchik.uz](http://blogchik.uz)
+* 🖥️  See my portfolio at [www.abduroziq.uz](http://abduroziq.uz)
 * ✉️  You can contact me at [blogchikuz@gmail.com](mailto:blogchikuz@gmail.com)
 * 🧠  I'm learning Laravel
 * 🤝  I'm open to collaborating on interesting projects
