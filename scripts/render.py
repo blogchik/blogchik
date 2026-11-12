@@ -489,8 +489,8 @@ def footer_svg(t: dict) -> str:
 
 # --------------------------------------------------------------------------- live data
 
-REPOS = ["subagent-monitor", "bananapicsbot", "bitrix24-widget-callanalytics", "my-website"]
-REPO_DESC = {"my-website": "Source of abduroziq.uz: Next.js and FastAPI, shipped with Docker and Dokploy."}
+REPOS = ["subagent-monitor", "bananapicsbot"]
+REPO_DESC: dict[str, str] = {}  # optional description overrides by repo name
 
 QUERY = """
 query($login: String!) {

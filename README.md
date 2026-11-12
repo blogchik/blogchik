@@ -55,16 +55,6 @@ I'm a product engineer from Tashkent. I take products from the first sketch in F
     <img alt="bananapicsbot — Telegram bot for AI image generation with payments, referrals and an admin panel" src="https://raw.githubusercontent.com/blogchik/blogchik/output/repo-bananapicsbot-light.svg" width="49%">
   </picture></a>
 </p>
-<p>
-  <a href="https://github.com/blogchik/bitrix24-widget-callanalytics"><picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/blogchik/blogchik/output/repo-bitrix24-widget-callanalytics-dark.svg">
-    <img alt="bitrix24-widget-callanalytics — Bitrix24 Marketplace app for call analytics" src="https://raw.githubusercontent.com/blogchik/blogchik/output/repo-bitrix24-widget-callanalytics-light.svg" width="49%">
-  </picture></a>
-  <a href="https://github.com/blogchik/my-website"><picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/blogchik/blogchik/output/repo-my-website-dark.svg">
-    <img alt="my-website — source of abduroziq.uz, Next.js and FastAPI" src="https://raw.githubusercontent.com/blogchik/blogchik/output/repo-my-website-light.svg" width="49%">
-  </picture></a>
-</p>
 
 ### Tech stack
 
