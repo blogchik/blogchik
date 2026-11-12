@@ -22,62 +22,56 @@ I'm a product engineer from Tashkent. I take products from the first sketch in F
 
 ### What I'm building
 
-| Project | What it is | Stack | Status |
-| --- | --- | --- | --- |
-| **[Payzone](https://payzone.uz)** | Marketplace for game top-ups and in-game currency in Uzbekistan and the CIS | FastAPI microservices · Next.js · Kubernetes | Live |
-| **AkhmedFX&nbsp;Bot** | Telegram bot for a trading educator: channel access, a free course, lessons and broadcasts for 85K+ users | Python · aiogram · PostgreSQL · Redis | Live |
-| **TAVRYN** | A calm, premium planner for tasks, projects and your schedule | Swift · SwiftUI · NestJS | In&nbsp;design |
-| **EzDonation** | Donations and real-time stream alerts for streamers in Uzbekistan | NestJS · Next.js · RabbitMQ | Planning |
+<p>
+  <a href="https://payzone.uz"><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/project-payzone-dark.svg">
+    <img alt="Payzone — marketplace for game top-ups and in-game currency in Uzbekistan and the CIS. Live. FastAPI, Next.js, Kubernetes." src="assets/project-payzone-light.svg" width="49%">
+  </picture></a>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/project-akhmedfx-dark.svg">
+    <img alt="AkhmedFX Bot — Telegram bot for a trading educator with 85K+ users. Live. Python, aiogram, PostgreSQL." src="assets/project-akhmedfx-light.svg" width="49%">
+  </picture>
+</p>
+<p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/project-tavryn-dark.svg">
+    <img alt="TAVRYN — a calm, premium planner for tasks, projects and your schedule. In design. Swift, SwiftUI, NestJS." src="assets/project-tavryn-light.svg" width="49%">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/project-ezdonation-dark.svg">
+    <img alt="EzDonation — donations and real-time stream alerts for streamers in Uzbekistan. Planning. NestJS, Next.js, RabbitMQ." src="assets/project-ezdonation-light.svg" width="49%">
+  </picture>
+</p>
 
 ### Open source
 
-| Repository | What it does | Stack |
-| --- | --- | --- |
-| [subagent-monitor](https://github.com/blogchik/subagent-monitor) | Claude Code mod: a live side panel for running subagents, with an animated creature for each agent | TypeScript |
-| [bananapicsbot](https://github.com/blogchik/bananapicsbot) | Telegram bot for AI image generation, with payments, referrals and an admin panel | Python |
-| [bitrix24-widget-callanalytics](https://github.com/blogchik/bitrix24-widget-callanalytics) | Bitrix24 Marketplace app for call analytics | Python |
-| [my-website](https://github.com/blogchik/my-website) | Source of abduroziq.uz, shipped with Docker and Dokploy | Next.js · FastAPI |
+<p>
+  <a href="https://github.com/blogchik/subagent-monitor"><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/blogchik/blogchik/output/repo-subagent-monitor-dark.svg">
+    <img alt="subagent-monitor — Claude Code mod with a live side panel for running subagents" src="https://raw.githubusercontent.com/blogchik/blogchik/output/repo-subagent-monitor-light.svg" width="49%">
+  </picture></a>
+  <a href="https://github.com/blogchik/bananapicsbot"><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/blogchik/blogchik/output/repo-bananapicsbot-dark.svg">
+    <img alt="bananapicsbot — Telegram bot for AI image generation with payments, referrals and an admin panel" src="https://raw.githubusercontent.com/blogchik/blogchik/output/repo-bananapicsbot-light.svg" width="49%">
+  </picture></a>
+</p>
+<p>
+  <a href="https://github.com/blogchik/bitrix24-widget-callanalytics"><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/blogchik/blogchik/output/repo-bitrix24-widget-callanalytics-dark.svg">
+    <img alt="bitrix24-widget-callanalytics — Bitrix24 Marketplace app for call analytics" src="https://raw.githubusercontent.com/blogchik/blogchik/output/repo-bitrix24-widget-callanalytics-light.svg" width="49%">
+  </picture></a>
+  <a href="https://github.com/blogchik/my-website"><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/blogchik/blogchik/output/repo-my-website-dark.svg">
+    <img alt="my-website — source of abduroziq.uz, Next.js and FastAPI" src="https://raw.githubusercontent.com/blogchik/blogchik/output/repo-my-website-light.svg" width="49%">
+  </picture></a>
+</p>
 
 ### Tech stack
 
-<table>
-  <tr>
-    <td><b>Frontend</b></td>
-    <td>
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts%2Cjs%2Creact%2Cnextjs%2Ctailwind%2Chtml%2Ccss&theme=dark">
-        <img alt="TypeScript, JavaScript, React, Next.js, Tailwind CSS, HTML, CSS" src="https://skillicons.dev/icons?i=ts%2Cjs%2Creact%2Cnextjs%2Ctailwind%2Chtml%2Ccss&theme=light" height="40">
-      </picture>
-    </td>
-  </tr>
-  <tr>
-    <td><b>Backend</b></td>
-    <td>
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=python%2Cfastapi%2Cnodejs%2Cnestjs%2Cphp%2Cpostgres%2Credis%2Crabbitmq&theme=dark">
-        <img alt="Python, FastAPI, Node.js, NestJS, PHP, PostgreSQL, Redis, RabbitMQ" src="https://skillicons.dev/icons?i=python%2Cfastapi%2Cnodejs%2Cnestjs%2Cphp%2Cpostgres%2Credis%2Crabbitmq&theme=light" height="40">
-      </picture>
-    </td>
-  </tr>
-  <tr>
-    <td><b>Infrastructure</b></td>
-    <td>
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=docker%2Ckubernetes%2Cterraform%2Cgithubactions%2Cnginx%2Ccloudflare%2Clinux&theme=dark">
-        <img alt="Docker, Kubernetes, Terraform, GitHub Actions, Nginx, Cloudflare, Linux" src="https://skillicons.dev/icons?i=docker%2Ckubernetes%2Cterraform%2Cgithubactions%2Cnginx%2Ccloudflare%2Clinux&theme=light" height="40">
-      </picture>
-    </td>
-  </tr>
-  <tr>
-    <td><b>Mobile and design</b></td>
-    <td>
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=swift%2Cfigma%2Cps%2Cai&theme=dark">
-        <img alt="Swift, Figma, Photoshop, Illustrator" src="https://skillicons.dev/icons?i=swift%2Cfigma%2Cps%2Cai&theme=light" height="40">
-      </picture>
-    </td>
-  </tr>
-</table>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
+  <img alt="Tech stack, layer by layer. Design: Figma, Photoshop, Illustrator, design systems. Interface: TypeScript, React, Next.js, Tailwind, SwiftUI. Services: Python, FastAPI, NestJS, Node.js, aiogram, PHP. Data: PostgreSQL, Redis, RabbitMQ, SQLAlchemy. Infrastructure: Docker, Kubernetes, Terraform, GitHub Actions, Cloudflare." src="assets/stack-light.svg" width="100%">
+</picture>
 
 ### GitHub activity
 
@@ -91,7 +85,10 @@ I'm a product engineer from Tashkent. I take products from the first sketch in F
   <img alt="A snake eating my contribution graph" src="https://raw.githubusercontent.com/blogchik/blogchik/output/snake-light.svg" width="100%">
 </picture>
 
-<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/footer-dark.svg">
+  <img alt="“Iymon bo‘lsa, imkon topiladi.” — where there is faith, there is a way." src="assets/footer-light.svg" width="100%">
+</picture>
 
 <p align="center">
   <a href="https://www.behance.net/blogchik"><img alt="Behance" src="https://img.shields.io/badge/Behance-18181B?style=flat-square&logo=behance&logoColor=E28413"></a>
@@ -100,8 +97,6 @@ I'm a product engineer from Tashkent. I take products from the first sketch in F
   <a href="https://www.youtube.com/c/blogchik"><img alt="YouTube" src="https://img.shields.io/badge/YouTube-18181B?style=flat-square&logo=youtube&logoColor=E28413"></a>
   <a href="https://medium.com/@blogchik"><img alt="Medium" src="https://img.shields.io/badge/Medium-18181B?style=flat-square&logo=medium&logoColor=E28413"></a>
 </p>
-
-<p align="center"><i>“Iymon bo‘lsa, imkon topiladi.”</i> — where there is faith, there is a way.</p>
 
 <p align="center">
   <a href="https://hits.sh/github.com/blogchik/"><img alt="Profile views" src="https://hits.sh/github.com/blogchik.svg?view=today-total&style=flat-square&label=profile%20views&color=E28413&labelColor=18181b"></a>
