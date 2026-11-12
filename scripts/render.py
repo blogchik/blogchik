@@ -14,6 +14,7 @@ import argparse
 import base64
 import datetime as dt
 import json
+import math
 import os
 import sys
 import urllib.request
@@ -49,6 +50,10 @@ THEMES = {
 # The editor panel in the banner is dark in both themes.
 CODE = {"panel": "#141417", "border": "#2e2e33", "chrome": "#1b1b1f", "gutter": "#55555e", "tab": "#a1a1aa",
         "ink": "#e4e4e7", "kw": "#c4b5fd", "str": "#F5A24B", "punct": "#8b8b94", "ok": "#22c55e"}
+
+# Karimov Academy's own black and gold, used in its project illustration.
+KARIMOV = {"bg": "#0b0b0b", "line": "#3a3122", "pill": "#15120c", "gold": "#d5af6f", "gold_dark": "#8a6338",
+           "gold_light": "#e4cb91"}
 
 # TAVRYN's own design-system colours, used in its project illustration.
 TAVRYN = {"surface": "#ece8e7", "raised": "#f8f4f3", "dark": "#22211d", "line": "#d9d4d2", "ink2": "#6b6862",
@@ -323,30 +328,30 @@ def art_coins(t: dict) -> str:
     return receipt + "".join(out) + gem
 
 
-def art_candles(t: dict) -> str:
-    # open, close, high, low on a 0..1 scale (1 = top)
-    data = [(.25, .35, .4, .2), (.35, .3, .42, .26), (.3, .45, .5, .28), (.45, .42, .52, .36), (.42, .58, .62, .4),
-            (.58, .52, .64, .48), (.52, .66, .72, .5), (.66, .62, .7, .56), (.62, .8, .86, .6), (.8, .9, .95, .76)]
-    top, bottom = 34, 118
-
-    def yv(v: float) -> float:
-        return bottom - v * (bottom - top)
-
-    out = []
-    for i, (o, c, hi, lo) in enumerate(data):
-        x = 100 + i * 23
-        up = c >= o
-        color = t["mark"] if up else t["muted"]
-        out.append(f'<line x1="{x + 5}" y1="{yv(hi):.1f}" x2="{x + 5}" y2="{yv(lo):.1f}" stroke="{color}" stroke-width="1.5"/>')
-        y0, y1 = sorted((yv(o), yv(c)))
-        fill = f'fill="{color}"' if up else f'fill="{t["cover"]}" stroke="{color}" stroke-width="1.5"'
-        cls = ' class="pulse"' if i == len(data) - 1 else ""
-        out.append(f'<rect x="{x}" y="{y0:.1f}" width="10" height="{max(y1 - y0, 2):.1f}" rx="2" {fill}{cls}/>')
-    bubble = (f'<g class="bob"><path d="M342,40 h86 a10,10 0 0 1 10,10 v38 a10,10 0 0 1 -10,10 h-76 l-12,10 v-10 '
-              f'a10,10 0 0 1 -8,-10 v-38 a10,10 0 0 1 10,-10 z" fill="{t["card"]}" stroke="{t["border"]}"/>'
-              + text(390, 72, "85K+", "sans ink", 22, 700, anchor="middle")
-              + text(390, 88, "USERS", "mono muted", 9.5, anchor="middle", ls=1.2) + "</g>")
-    return "".join(out) + bubble
+def art_ecosystem(t: dict) -> str:
+    """Karimov Academy: one hub, many products. Drawn in the academy's own black and gold."""
+    c = KARIMOV
+    cx, cy, rx, ry = 288, 76, 108, 36
+    nodes = [("CRM", 0), ("TASKS", 60), ("QUIZ", 120), ("LESSONS", 180), ("SITE", 240), ("CHATS", 300)]
+    out = [f'<defs><linearGradient id="kagold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="{c["gold_light"]}"/>'
+           f'<stop offset="0.5" stop-color="{c["gold"]}"/><stop offset="1" stop-color="{c["gold_dark"]}"/></linearGradient></defs>',
+           f'<rect x="140" y="22" width="296" height="108" rx="16" fill="{c["bg"]}" stroke="{c["line"]}"/>',
+           f'<ellipse cx="{cx}" cy="{cy}" rx="{rx}" ry="{ry}" fill="none" stroke="{c["line"]}" stroke-dasharray="2 4"/>']
+    pills, signals = [], []
+    for i, (label, deg) in enumerate(nodes):
+        a = math.radians(deg)
+        x, y = cx + rx * math.cos(a), cy + ry * math.sin(a)
+        out.append(f'<line x1="{cx}" y1="{cy}" x2="{x:.1f}" y2="{y:.1f}" stroke="{c["line"]}"/>')
+        if i % 2 == 0:
+            signals.append(f'<circle class="sig" cx="{cx}" cy="{cy}" r="2.6" fill="{c["gold_light"]}" '
+                           f'style="--dx:{x - cx:.1f}px;--dy:{y - cy:.1f}px;animation-delay:-{i * 0.9:.1f}s"/>')
+        w = tw(label, "mono500", 9, 1) + 16
+        pills.append(f'<rect x="{x - w / 2:.1f}" y="{y - 9:.1f}" width="{w:.1f}" height="18" rx="9" fill="{c["pill"]}" stroke="{c["line"]}"/>'
+                     + text(x, y + 3.2, label, "mono", 9, anchor="middle", ls=1, fill=c["gold"]))
+    hub = (f'<circle cx="{cx}" cy="{cy}" r="27" fill="none" stroke="{c["gold_dark"]}" stroke-opacity="0.6" class="pulse"/>'
+           f'<circle cx="{cx}" cy="{cy}" r="21" fill="url(#kagold)"/>'
+           + text(cx, cy + 5, "KA", "sans", 14, 700, anchor="middle", fill=c["bg"], ls=0.5))
+    return "".join(out) + "".join(signals) + "".join(pills) + hub
 
 
 def art_schedule(t: dict) -> str:
@@ -388,9 +393,9 @@ PROJECTS = [
     {"slug": "payzone", "name": "Payzone", "status": "live", "art": art_coins,
      "desc": "Marketplace for game top-ups and in-game currency in Uzbekistan and the CIS.",
      "stack": ["FastAPI", "Next.js", "Kubernetes"]},
-    {"slug": "akhmedfx", "name": "AkhmedFX Bot", "status": "live", "art": art_candles,
-     "desc": "Telegram bot for a trading educator: channel access, a free course, lessons and broadcasts.",
-     "stack": ["Python", "aiogram", "PostgreSQL"]},
+    {"slug": "karimov-academy", "name": "Karimov Academy Ecosystem", "status": "live", "art": art_ecosystem,
+     "desc": "Website, lead API and an in-house cabinet for a trading academy: CRM, tasks, chats, lessons and quizzes.",
+     "stack": ["NestJS", "Next.js", "PostgreSQL"]},
     {"slug": "tavryn", "name": "TAVRYN", "status": "design", "art": art_schedule,
      "desc": "A calm, premium planner for tasks, projects and your schedule. iOS first.",
      "stack": ["Swift", "SwiftUI", "NestJS"]},
@@ -406,7 +411,11 @@ def project_svg(p: dict, t: dict) -> str:
            + rule(".now", "animation:now 9s ease-in-out infinite")
            + keyframes("pop", [("0%", "opacity:0;transform:scale(.92)"), ("12%,84%", "opacity:1;transform:scale(1)"),
                                ("96%,100%", "opacity:0;transform:scale(.96)")])
-           + rule(".pop", "animation:pop 5s cubic-bezier(.2,.8,.2,1) infinite"))
+           + rule(".pop", "animation:pop 5s cubic-bezier(.2,.8,.2,1) infinite")
+           + keyframes("sig", [("0%", "transform:translate(0,0);opacity:0"), ("15%", "opacity:1"),
+                               ("70%", "transform:translate(var(--dx),var(--dy));opacity:1"),
+                               ("82%,100%", "transform:translate(var(--dx),var(--dy));opacity:0")])
+           + rule(".sig", "animation:sig 2.7s ease-in-out infinite"))
     desc = wrap(p["desc"], w - 52, "sans500", 14.5, 2)
     body = (f'<defs>{dots("dots", t["dot"], 18)}<clipPath id="cover"><rect x="12" y="12" width="{w - 24}" height="128" rx="12"/></clipPath></defs>'
             + frame(w, h, t)
@@ -464,7 +473,7 @@ def stack_svg(t: dict) -> str:
 
 def footer_svg(t: dict) -> str:
     w, h = 960, 180
-    motto = "“Iymon bo‘lsa, imkon topiladi.”"
+    motto = "“Think beyond limits…”"
     size = 38
     mw = tw(motto, "sans700", size, -0.5)
     x0, x1 = 480 - mw / 2 + 20, 480 + mw / 2 - 20
@@ -474,8 +483,8 @@ def footer_svg(t: dict) -> str:
            + rule(".draw", f"stroke-dasharray:{length:.0f};animation:draw 4s cubic-bezier(.6,0,.2,1) 1 both"))
     body = (text(480, 88, motto, "sans ink", size, 700, anchor="middle", ls=-0.5)
             + f'<path class="draw" d="{path}" fill="none" stroke="{t["accent"]}" stroke-width="4" stroke-linecap="round"/>'
-            + text(480, 150, "WHERE THERE IS FAITH, THERE IS A WAY", "mono muted", 12, anchor="middle", ls=1.8))
-    return doc(w, h, "Iymon bo‘lsa, imkon topiladi", "My motto: where there is faith, there is a way.", body, t, css)
+            + text(480, 150, "JABBOROV ABDUROZIQ · TASHKENT", "mono muted", 12, anchor="middle", ls=1.8))
+    return doc(w, h, "Think beyond limits", "My motto: think beyond limits.", body, t, css)
 
 
 # --------------------------------------------------------------------------- live data
@@ -638,7 +647,6 @@ def stats_svg(t: dict, s: dict) -> str:
 
 
 def star_points(cx: float, cy: float, r: float) -> str:
-    import math
     pts = []
     for k in range(10):
         rr = r if k % 2 == 0 else r * 0.45

@@ -27,10 +27,10 @@ I'm a product engineer from Tashkent. I take products from the first sketch in F
     <source media="(prefers-color-scheme: dark)" srcset="assets/project-payzone-dark.svg">
     <img alt="Payzone — marketplace for game top-ups and in-game currency in Uzbekistan and the CIS. Live. FastAPI, Next.js, Kubernetes." src="assets/project-payzone-light.svg" width="49%">
   </picture></a>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/project-akhmedfx-dark.svg">
-    <img alt="AkhmedFX Bot — Telegram bot for a trading educator with 85K+ users. Live. Python, aiogram, PostgreSQL." src="assets/project-akhmedfx-light.svg" width="49%">
-  </picture>
+  <a href="https://karimovacademy.uz"><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/project-karimov-academy-dark.svg">
+    <img alt="Karimov Academy Ecosystem — website, lead API and an in-house cabinet for a trading academy: CRM, tasks, chats, lessons and quizzes. Live. NestJS, Next.js, PostgreSQL." src="assets/project-karimov-academy-light.svg" width="49%">
+  </picture></a>
 </p>
 <p>
   <picture>
@@ -87,7 +87,7 @@ I'm a product engineer from Tashkent. I take products from the first sketch in F
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/footer-dark.svg">
-  <img alt="“Iymon bo‘lsa, imkon topiladi.” — where there is faith, there is a way." src="assets/footer-light.svg" width="100%">
+  <img alt="“Think beyond limits…” — Jabborov Abduroziq, Tashkent" src="assets/footer-light.svg" width="100%">
 </picture>
 
 <p align="center">
